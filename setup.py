@@ -50,7 +50,7 @@ with open("README.rst") as f:
 
 sounds = [
     "yt-dlp>=2022.2.4",
-    'pyaudio==0.2.11; platform_system!="Windows"',
+    'pyaudio @ https://git.skeh.site/skeh/pyaudio.git ; platform_system!="Windows"',
 ]
 extras_require = {"sounds": sounds}
 

@@ -56,7 +56,6 @@ except FileNotFoundError:
 else:
     ffmpeg_bin = "ffmpeg"
 
-
 __all__ = ("Sound", "AudioPlayer")
 
 
